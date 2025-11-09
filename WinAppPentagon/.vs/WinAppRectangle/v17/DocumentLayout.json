@@ -1,22 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\justi\\Documentos\\Universidad Semestre A\\Grafica\\WinAppPentagon\\",
+  "WorkspaceRootPath": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Github\\ComputacionGrafica_Grupo\\WinAppPentagon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\justi\\documentos\\universidad semestre a\\grafica\\winapppentagon\\winapprectangle\\frmrombo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\frmrombo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\justi\\documentos\\universidad semestre a\\grafica\\winapppentagon\\winapprectangle\\crombo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\crombo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\justi\\documentos\\universidad semestre a\\grafica\\winapppentagon\\winapprectangle\\frmrombo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\frmrombo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\justi\\documentos\\universidad semestre a\\grafica\\winapppentagon\\winapprectangle\\cpentagonosypoligonos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\cpentagonosypoligonos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\justi\\onedrive\\documentos\\universidad semestre a\\grafica\\github\\computaciongrafica_grupo\\winapppentagon\\winapprectangle\\ccopodenieve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\ccopodenieve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 274,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CPentagonosYPoligonos.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\Documentos\\Universidad Semestre A\\Grafica\\WinAppPentagon\\WinAppRectangle\\CPentagonosYPoligonos.cs",
-              "RelativeDocumentMoniker": "WinAppRectangle\\CPentagonosYPoligonos.cs",
-              "ToolTip": "C:\\Users\\justi\\Documentos\\Universidad Semestre A\\Grafica\\WinAppPentagon\\WinAppRectangle\\CPentagonosYPoligonos.cs",
-              "RelativeToolTip": "WinAppRectangle\\CPentagonosYPoligonos.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T16:22:37.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmRombo.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\Documentos\\Universidad Semestre A\\Grafica\\WinAppPentagon\\WinAppRectangle\\frmRombo.cs",
-              "RelativeDocumentMoniker": "WinAppRectangle\\frmRombo.cs",
-              "ToolTip": "C:\\Users\\justi\\Documentos\\Universidad Semestre A\\Grafica\\WinAppPentagon\\WinAppRectangle\\frmRombo.cs",
-              "RelativeToolTip": "WinAppRectangle\\frmRombo.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T16:22:18.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmRombo.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\justi\\Documentos\\Universidad Semestre A\\Grafica\\WinAppPentagon\\WinAppRectangle\\frmRombo.cs",
-              "RelativeDocumentMoniker": "WinAppRectangle\\frmRombo.cs",
-              "ToolTip": "C:\\Users\\justi\\Documentos\\Universidad Semestre A\\Grafica\\WinAppPentagon\\WinAppRectangle\\frmRombo.cs [Design]",
-              "RelativeToolTip": "WinAppRectangle\\frmRombo.cs [Design]",
+              "Title": "CCopoDeNieve.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Github\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\CCopoDeNieve.cs",
+              "RelativeDocumentMoniker": "WinAppRectangle\\CCopoDeNieve.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Github\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\CCopoDeNieve.cs",
+              "RelativeToolTip": "WinAppRectangle\\CCopoDeNieve.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwFsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T16:21:52.859Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CRombo.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\Documentos\\Universidad Semestre A\\Grafica\\WinAppPentagon\\WinAppRectangle\\CRombo.cs",
-              "RelativeDocumentMoniker": "WinAppRectangle\\CRombo.cs",
-              "ToolTip": "C:\\Users\\justi\\Documentos\\Universidad Semestre A\\Grafica\\WinAppPentagon\\WinAppRectangle\\CRombo.cs",
-              "RelativeToolTip": "WinAppRectangle\\CRombo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T16:21:17.113Z",
+              "WhenOpened": "2025-11-09T04:02:34.424Z",
               "EditorCaption": ""
             }
           ]
