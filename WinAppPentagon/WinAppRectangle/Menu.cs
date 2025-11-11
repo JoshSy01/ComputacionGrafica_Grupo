@@ -85,5 +85,15 @@ namespace WinAppRectangle
         {
             OpenWindow(new frmFigura4());
         }
+
+        private void polígono16Y8PuntasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenWindow(new FrmPoligono16_8());
+        }
+
+        private void florConCírculosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenWindow(new FrmFlorCirculo());
+        }
     }
 }

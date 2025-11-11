@@ -37,8 +37,10 @@
             this.pentagonosYPoligonosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.florHexagonosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.copoDeNieveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.figura4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.polígono16Y8PuntasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.florConCírculosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,6 +67,8 @@
             this.florHexagonosToolStripMenuItem,
             this.copoDeNieveToolStripMenuItem,
             this.figura4ToolStripMenuItem,
+            this.polígono16Y8PuntasToolStripMenuItem,
+            this.florConCírculosToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.figurasToolStripMenuItem.Name = "figurasToolStripMenuItem";
             this.figurasToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
@@ -119,6 +123,13 @@
             this.copoDeNieveToolStripMenuItem.Text = "Copo de Nieve";
             this.copoDeNieveToolStripMenuItem.Click += new System.EventHandler(this.copoDeNieveToolStripMenuItem_Click);
             // 
+            // figura4ToolStripMenuItem
+            // 
+            this.figura4ToolStripMenuItem.Name = "figura4ToolStripMenuItem";
+            this.figura4ToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
+            this.figura4ToolStripMenuItem.Text = "Figura 4";
+            this.figura4ToolStripMenuItem.Click += new System.EventHandler(this.figura4ToolStripMenuItem_Click);
+            // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
@@ -126,12 +137,19 @@
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
-            // figura4ToolStripMenuItem
+            // polígono16Y8PuntasToolStripMenuItem
             // 
-            this.figura4ToolStripMenuItem.Name = "figura4ToolStripMenuItem";
-            this.figura4ToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
-            this.figura4ToolStripMenuItem.Text = "Figura 4";
-            this.figura4ToolStripMenuItem.Click += new System.EventHandler(this.figura4ToolStripMenuItem_Click);
+            this.polígono16Y8PuntasToolStripMenuItem.Name = "polígono16Y8PuntasToolStripMenuItem";
+            this.polígono16Y8PuntasToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
+            this.polígono16Y8PuntasToolStripMenuItem.Text = "Polígono 16 y 8 puntas";
+            this.polígono16Y8PuntasToolStripMenuItem.Click += new System.EventHandler(this.polígono16Y8PuntasToolStripMenuItem_Click);
+            // 
+            // florConCírculosToolStripMenuItem
+            // 
+            this.florConCírculosToolStripMenuItem.Name = "florConCírculosToolStripMenuItem";
+            this.florConCírculosToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
+            this.florConCírculosToolStripMenuItem.Text = "Flor con Círculos";
+            this.florConCírculosToolStripMenuItem.Click += new System.EventHandler(this.florConCírculosToolStripMenuItem_Click);
             // 
             // Menu
             // 
@@ -163,5 +181,7 @@
         private System.Windows.Forms.ToolStripMenuItem florHexagonosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem copoDeNieveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem figura4ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem polígono16Y8PuntasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem florConCírculosToolStripMenuItem;
     }
 }

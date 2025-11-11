@@ -82,3 +82,25 @@ C:\Users\alfon\OneDrive\Escritorio\Alfonsoooo\ESPE\COMPUTACION GRAFICA\Computaci
 C:\Users\alfon\OneDrive\Escritorio\Alfonsoooo\ESPE\COMPUTACION GRAFICA\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.pdb
 C:\Users\alfon\OneDrive\Escritorio\Alfonsoooo\ESPE\COMPUTACION GRAFICA\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppFigure.frmFigura4.resources
 C:\Users\alfon\OneDrive\Escritorio\Alfonsoooo\ESPE\COMPUTACION GRAFICA\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.exe.config
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\bin\Debug\WinAppRectangle.exe.config
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\bin\Debug\WinAppRectangle.exe
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\bin\Debug\WinAppRectangle.pdb
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.csproj.AssemblyReference.cache
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.exe.config
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.frmCopoDeNieve.resources
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppFigure.frmFigura4.resources
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.frmFlower.resources
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.frmHexagonFlower.resources
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.frmPentagon.resources
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.frmPentagonosYPoligonos.resources
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.frmRectangle.resources
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.frmRombo.resources
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.frmSquare.resources
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.Menu.resources
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.Properties.Resources.resources
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.csproj.GenerateResource.cache
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.exe
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.pdb
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.FrmFlorCirculo.resources
+C:\Users\USUARIO\STEFY\6toSemestre\Gráfica\1P\proyecto1P\ComputacionGrafica_Grupo\WinAppPentagon\WinAppRectangle\obj\Debug\WinAppRectangle.FrmPoligono16_8.resources
