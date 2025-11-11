@@ -1,6 +1,6 @@
-﻿namespace WinAppRectangle
+﻿namespace WinAppFigure
 {
-    partial class frmPentagonosYPoligonos
+    partial class frmFigura4
     {
         /// <summary>
         /// Required designer variable.
@@ -59,10 +59,10 @@
             this.gbTransformar.Controls.Add(this.btnRotDer);
             this.gbTransformar.Controls.Add(this.btnRotIzq);
             this.gbTransformar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbTransformar.Location = new System.Drawing.Point(23, 269);
+            this.gbTransformar.Location = new System.Drawing.Point(19, 275);
             this.gbTransformar.Name = "gbTransformar";
             this.gbTransformar.Size = new System.Drawing.Size(284, 144);
-            this.gbTransformar.TabIndex = 17;
+            this.gbTransformar.TabIndex = 25;
             this.gbTransformar.TabStop = false;
             this.gbTransformar.Text = "Transformación";
             // 
@@ -70,14 +70,14 @@
             // 
             this.tbEscala.Enabled = false;
             this.tbEscala.Location = new System.Drawing.Point(88, 28);
-            this.tbEscala.Maximum = 50;
-            this.tbEscala.Minimum = -50;
+            this.tbEscala.Maximum = 100;
             this.tbEscala.Name = "tbEscala";
             this.tbEscala.Size = new System.Drawing.Size(177, 56);
             this.tbEscala.TabIndex = 5;
             this.tbEscala.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.tbEscala.Scroll += new System.EventHandler(this.tbEscala_Scroll);
-            this.tbEscala.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbEscala_KeyDown);
+            this.tbEscala.Value = 10;
+            this.tbEscala.Scroll += new System.EventHandler(this.TbEscala_Scroll);
+            this.tbEscala.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TbEscala_KeyDown);
             // 
             // label2
             // 
@@ -106,7 +106,7 @@
             this.btnRotDer.TabIndex = 2;
             this.btnRotDer.Text = "->";
             this.btnRotDer.UseVisualStyleBackColor = true;
-            this.btnRotDer.Click += new System.EventHandler(this.btnRotDer_Click);
+            this.btnRotDer.Click += new System.EventHandler(this.BtnRotDer_Click);
             // 
             // btnRotIzq
             // 
@@ -117,16 +117,16 @@
             this.btnRotIzq.TabIndex = 1;
             this.btnRotIzq.Text = "<-";
             this.btnRotIzq.UseVisualStyleBackColor = true;
-            this.btnRotIzq.Click += new System.EventHandler(this.btnRotIzq_Click);
+            this.btnRotIzq.Click += new System.EventHandler(this.BtnRotIzq_Click);
             // 
             // grbCanvas
             // 
             this.grbCanvas.Controls.Add(this.picCanvas);
             this.grbCanvas.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbCanvas.Location = new System.Drawing.Point(344, 28);
+            this.grbCanvas.Location = new System.Drawing.Point(340, 34);
             this.grbCanvas.Name = "grbCanvas";
             this.grbCanvas.Size = new System.Drawing.Size(441, 347);
-            this.grbCanvas.TabIndex = 18;
+            this.grbCanvas.TabIndex = 26;
             this.grbCanvas.TabStop = false;
             this.grbCanvas.Text = "Gráfico";
             // 
@@ -134,10 +134,10 @@
             // 
             this.picCanvas.Location = new System.Drawing.Point(6, 21);
             this.picCanvas.Name = "picCanvas";
-            this.picCanvas.Size = new System.Drawing.Size(429, 320);
+            this.picCanvas.Size = new System.Drawing.Size(435, 372);
             this.picCanvas.TabIndex = 0;
             this.picCanvas.TabStop = false;
-            this.picCanvas.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.picCanvas_PreviewKeyDown);
+            this.picCanvas.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.PicCanvas_PreviewKeyDown);
             // 
             // grbProcess
             // 
@@ -145,10 +145,10 @@
             this.grbProcess.Controls.Add(this.btnReset);
             this.grbProcess.Controls.Add(this.btnGraficar);
             this.grbProcess.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbProcess.Location = new System.Drawing.Point(23, 150);
+            this.grbProcess.Location = new System.Drawing.Point(19, 156);
             this.grbProcess.Name = "grbProcess";
             this.grbProcess.Size = new System.Drawing.Size(284, 100);
-            this.grbProcess.TabIndex = 16;
+            this.grbProcess.TabIndex = 24;
             this.grbProcess.TabStop = false;
             this.grbProcess.Text = "Proceso";
             // 
@@ -169,7 +169,7 @@
             this.btnReset.TabIndex = 1;
             this.btnReset.Text = "Resetear";
             this.btnReset.UseVisualStyleBackColor = true;
-            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            this.btnReset.Click += new System.EventHandler(this.BtnReset_Click);
             // 
             // btnGraficar
             // 
@@ -179,17 +179,17 @@
             this.btnGraficar.TabIndex = 0;
             this.btnGraficar.Text = "Graficar";
             this.btnGraficar.UseVisualStyleBackColor = true;
-            this.btnGraficar.Click += new System.EventHandler(this.btnGraficar_Click);
+            this.btnGraficar.Click += new System.EventHandler(this.BtnGraficar_Click);
             // 
             // grbInputs
             // 
             this.grbInputs.Controls.Add(this.txtRadio);
             this.grbInputs.Controls.Add(this.lblRadio);
             this.grbInputs.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbInputs.Location = new System.Drawing.Point(23, 25);
+            this.grbInputs.Location = new System.Drawing.Point(19, 31);
             this.grbInputs.Name = "grbInputs";
             this.grbInputs.Size = new System.Drawing.Size(284, 103);
-            this.grbInputs.TabIndex = 15;
+            this.grbInputs.TabIndex = 23;
             this.grbInputs.TabStop = false;
             this.grbInputs.Text = "Entradas";
             // 
@@ -209,18 +209,18 @@
             this.lblRadio.TabIndex = 0;
             this.lblRadio.Text = "Radio:";
             // 
-            // frmPentagonosYPoligonos
+            // frmFigura4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(838, 452);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.gbTransformar);
             this.Controls.Add(this.grbCanvas);
             this.Controls.Add(this.grbProcess);
             this.Controls.Add(this.grbInputs);
-            this.Name = "frmPentagonosYPoligonos";
-            this.Text = "frmPentagonosYPoligonos";
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmPentagonosYPoligonos_KeyDown);
+            this.Name = "frmFigura4";
+            this.Text = "Figura 4";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmFigura4_KeyDown);
             this.gbTransformar.ResumeLayout(false);
             this.gbTransformar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tbEscala)).EndInit();

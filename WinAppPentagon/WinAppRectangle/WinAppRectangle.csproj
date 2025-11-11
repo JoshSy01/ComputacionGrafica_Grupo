@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CCopoDeNieve.cs" />
+    <Compile Include="CFigura4.cs" />
     <Compile Include="CFlower.cs" />
     <Compile Include="CHexagonFlower.cs" />
     <Compile Include="CPentagon.cs" />
@@ -59,6 +60,12 @@
     </Compile>
     <Compile Include="frmCopoDeNieve.Designer.cs">
       <DependentUpon>frmCopoDeNieve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFigura4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFigura4.Designer.cs">
+      <DependentUpon>frmFigura4.cs</DependentUpon>
     </Compile>
     <Compile Include="frmFlower.cs">
       <SubType>Form</SubType>
@@ -113,6 +120,9 @@
     <Compile Include="Transformacion.cs" />
     <EmbeddedResource Include="frmCopoDeNieve.resx">
       <DependentUpon>frmCopoDeNieve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFigura4.resx">
+      <DependentUpon>frmFigura4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmFlower.resx">
       <DependentUpon>frmFlower.cs</DependentUpon>

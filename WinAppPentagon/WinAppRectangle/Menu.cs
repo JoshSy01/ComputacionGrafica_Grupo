@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinAppFigure;
 
 namespace WinAppRectangle
 {
@@ -78,6 +79,11 @@ namespace WinAppRectangle
         private void copoDeNieveToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenWindow(new frmCopoDeNieve());
+        }
+
+        private void figura4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenWindow(new frmFigura4());
         }
     }
 }

@@ -36,8 +36,9 @@
             this.florToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pentagonosYPoligonosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.florHexagonosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.copoDeNieveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.figura4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,7 +50,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.MdiWindowListItem = this.figurasToolStripMenuItem;
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(962, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(814, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -63,6 +64,7 @@
             this.pentagonosYPoligonosToolStripMenuItem,
             this.florHexagonosToolStripMenuItem,
             this.copoDeNieveToolStripMenuItem,
+            this.figura4ToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.figurasToolStripMenuItem.Name = "figurasToolStripMenuItem";
             this.figurasToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
@@ -110,13 +112,6 @@
             this.florHexagonosToolStripMenuItem.Text = "Flor Hexagonos";
             this.florHexagonosToolStripMenuItem.Click += new System.EventHandler(this.florHexagonosToolStripMenuItem_Click);
             // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
-            // 
             // copoDeNieveToolStripMenuItem
             // 
             this.copoDeNieveToolStripMenuItem.Name = "copoDeNieveToolStripMenuItem";
@@ -124,11 +119,25 @@
             this.copoDeNieveToolStripMenuItem.Text = "Copo de Nieve";
             this.copoDeNieveToolStripMenuItem.Click += new System.EventHandler(this.copoDeNieveToolStripMenuItem_Click);
             // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
+            // figura4ToolStripMenuItem
+            // 
+            this.figura4ToolStripMenuItem.Name = "figura4ToolStripMenuItem";
+            this.figura4ToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
+            this.figura4ToolStripMenuItem.Text = "Figura 4";
+            this.figura4ToolStripMenuItem.Click += new System.EventHandler(this.figura4ToolStripMenuItem_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(962, 548);
+            this.ClientSize = new System.Drawing.Size(814, 487);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.Name = "Menu";
@@ -153,5 +162,6 @@
         private System.Windows.Forms.ToolStripMenuItem pentagonosYPoligonosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem florHexagonosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem copoDeNieveToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem figura4ToolStripMenuItem;
     }
 }
