@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.gbTransformar = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.tbEscala = new System.Windows.Forms.TrackBar();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -43,45 +45,76 @@
             this.grbInputs = new System.Windows.Forms.GroupBox();
             this.txtRadio = new System.Windows.Forms.TextBox();
             this.lblRadio = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtAreaCirc = new System.Windows.Forms.TextBox();
+            this.txtAreaPet = new System.Windows.Forms.TextBox();
+            this.txtAreaCont = new System.Windows.Forms.TextBox();
+            this.txtPerContenedor = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.gbTransformar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tbEscala)).BeginInit();
             this.grbCanvas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCanvas)).BeginInit();
             this.grbProcess.SuspendLayout();
             this.grbInputs.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbTransformar
             // 
+            this.gbTransformar.Controls.Add(this.label4);
+            this.gbTransformar.Controls.Add(this.label3);
             this.gbTransformar.Controls.Add(this.tbEscala);
             this.gbTransformar.Controls.Add(this.label2);
             this.gbTransformar.Controls.Add(this.label1);
             this.gbTransformar.Controls.Add(this.btnRotDer);
             this.gbTransformar.Controls.Add(this.btnRotIzq);
             this.gbTransformar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbTransformar.Location = new System.Drawing.Point(19, 261);
+            this.gbTransformar.Location = new System.Drawing.Point(19, 173);
             this.gbTransformar.Name = "gbTransformar";
-            this.gbTransformar.Size = new System.Drawing.Size(284, 144);
+            this.gbTransformar.Size = new System.Drawing.Size(315, 182);
             this.gbTransformar.TabIndex = 33;
             this.gbTransformar.TabStop = false;
             this.gbTransformar.Text = "Transformación";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(142, 147);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(82, 16);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Usar flechas";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(40, 147);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(81, 16);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Traslación";
+            // 
             // tbEscala
             // 
             this.tbEscala.Enabled = false;
-            this.tbEscala.Location = new System.Drawing.Point(88, 28);
+            this.tbEscala.Location = new System.Drawing.Point(99, 34);
             this.tbEscala.Maximum = 100;
+            this.tbEscala.Minimum = -100;
             this.tbEscala.Name = "tbEscala";
             this.tbEscala.Size = new System.Drawing.Size(177, 56);
             this.tbEscala.TabIndex = 5;
             this.tbEscala.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.tbEscala.Value = 10;
             this.tbEscala.Scroll += new System.EventHandler(this.tbEscala_Scroll);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(29, 84);
+            this.label2.Location = new System.Drawing.Point(40, 90);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 16);
             this.label2.TabIndex = 4;
@@ -90,7 +123,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(27, 28);
+            this.label1.Location = new System.Drawing.Point(38, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 16);
             this.label1.TabIndex = 3;
@@ -99,7 +132,7 @@
             // btnRotDer
             // 
             this.btnRotDer.Enabled = false;
-            this.btnRotDer.Location = new System.Drawing.Point(158, 103);
+            this.btnRotDer.Location = new System.Drawing.Point(169, 109);
             this.btnRotDer.Name = "btnRotDer";
             this.btnRotDer.Size = new System.Drawing.Size(75, 23);
             this.btnRotDer.TabIndex = 2;
@@ -110,7 +143,7 @@
             // btnRotIzq
             // 
             this.btnRotIzq.Enabled = false;
-            this.btnRotIzq.Location = new System.Drawing.Point(56, 103);
+            this.btnRotIzq.Location = new System.Drawing.Point(67, 109);
             this.btnRotIzq.Name = "btnRotIzq";
             this.btnRotIzq.Size = new System.Drawing.Size(75, 23);
             this.btnRotIzq.TabIndex = 1;
@@ -124,7 +157,7 @@
             this.grbCanvas.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbCanvas.Location = new System.Drawing.Point(340, 20);
             this.grbCanvas.Name = "grbCanvas";
-            this.grbCanvas.Size = new System.Drawing.Size(441, 413);
+            this.grbCanvas.Size = new System.Drawing.Size(441, 457);
             this.grbCanvas.TabIndex = 34;
             this.grbCanvas.TabStop = false;
             this.grbCanvas.Text = "Gráfico";
@@ -133,9 +166,10 @@
             // 
             this.picCanvas.Location = new System.Drawing.Point(6, 21);
             this.picCanvas.Name = "picCanvas";
-            this.picCanvas.Size = new System.Drawing.Size(435, 383);
+            this.picCanvas.Size = new System.Drawing.Size(435, 430);
             this.picCanvas.TabIndex = 0;
             this.picCanvas.TabStop = false;
+            this.picCanvas.Click += new System.EventHandler(this.picCanvas_MouseClick);
             this.picCanvas.Paint += new System.Windows.Forms.PaintEventHandler(this.picCanvas_Paint);
             // 
             // grbProcess
@@ -144,16 +178,16 @@
             this.grbProcess.Controls.Add(this.btnResetear);
             this.grbProcess.Controls.Add(this.btnGraficar);
             this.grbProcess.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbProcess.Location = new System.Drawing.Point(19, 142);
+            this.grbProcess.Location = new System.Drawing.Point(19, 92);
             this.grbProcess.Name = "grbProcess";
-            this.grbProcess.Size = new System.Drawing.Size(284, 100);
+            this.grbProcess.Size = new System.Drawing.Size(315, 75);
             this.grbProcess.TabIndex = 32;
             this.grbProcess.TabStop = false;
             this.grbProcess.Text = "Proceso";
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(190, 56);
+            this.btnExit.Location = new System.Drawing.Point(227, 32);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 2;
@@ -163,9 +197,9 @@
             // 
             // btnResetear
             // 
-            this.btnResetear.Location = new System.Drawing.Point(88, 56);
+            this.btnResetear.Location = new System.Drawing.Point(112, 32);
             this.btnResetear.Name = "btnResetear";
-            this.btnResetear.Size = new System.Drawing.Size(96, 23);
+            this.btnResetear.Size = new System.Drawing.Size(109, 23);
             this.btnResetear.TabIndex = 1;
             this.btnResetear.Text = "Resetear";
             this.btnResetear.UseVisualStyleBackColor = true;
@@ -173,9 +207,9 @@
             // 
             // btnGraficar
             // 
-            this.btnGraficar.Location = new System.Drawing.Point(7, 56);
+            this.btnGraficar.Location = new System.Drawing.Point(7, 32);
             this.btnGraficar.Name = "btnGraficar";
-            this.btnGraficar.Size = new System.Drawing.Size(75, 23);
+            this.btnGraficar.Size = new System.Drawing.Size(102, 23);
             this.btnGraficar.TabIndex = 0;
             this.btnGraficar.Text = "Graficar";
             this.btnGraficar.UseVisualStyleBackColor = true;
@@ -188,32 +222,115 @@
             this.grbInputs.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbInputs.Location = new System.Drawing.Point(19, 17);
             this.grbInputs.Name = "grbInputs";
-            this.grbInputs.Size = new System.Drawing.Size(284, 103);
+            this.grbInputs.Size = new System.Drawing.Size(315, 63);
             this.grbInputs.TabIndex = 31;
             this.grbInputs.TabStop = false;
             this.grbInputs.Text = "Entradas";
             // 
             // txtRadio
             // 
-            this.txtRadio.Location = new System.Drawing.Point(115, 42);
+            this.txtRadio.Location = new System.Drawing.Point(115, 27);
             this.txtRadio.Name = "txtRadio";
             this.txtRadio.Size = new System.Drawing.Size(129, 22);
-            this.txtRadio.TabIndex = 2;
+            this.txtRadio.TabIndex = 3;
             // 
             // lblRadio
             // 
             this.lblRadio.AutoSize = true;
-            this.lblRadio.Location = new System.Drawing.Point(9, 45);
+            this.lblRadio.Location = new System.Drawing.Point(9, 27);
             this.lblRadio.Name = "lblRadio";
             this.lblRadio.Size = new System.Drawing.Size(53, 16);
             this.lblRadio.TabIndex = 0;
             this.lblRadio.Text = "Radio:";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.txtAreaCirc);
+            this.groupBox1.Controls.Add(this.txtAreaPet);
+            this.groupBox1.Controls.Add(this.txtAreaCont);
+            this.groupBox1.Controls.Add(this.txtPerContenedor);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(19, 361);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(315, 116);
+            this.groupBox1.TabIndex = 35;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Salidas";
+            // 
+            // txtAreaCirc
+            // 
+            this.txtAreaCirc.Location = new System.Drawing.Point(173, 88);
+            this.txtAreaCirc.Name = "txtAreaCirc";
+            this.txtAreaCirc.Size = new System.Drawing.Size(129, 22);
+            this.txtAreaCirc.TabIndex = 9;
+            // 
+            // txtAreaPet
+            // 
+            this.txtAreaPet.Location = new System.Drawing.Point(173, 67);
+            this.txtAreaPet.Name = "txtAreaPet";
+            this.txtAreaPet.Size = new System.Drawing.Size(129, 22);
+            this.txtAreaPet.TabIndex = 8;
+            // 
+            // txtAreaCont
+            // 
+            this.txtAreaCont.Location = new System.Drawing.Point(173, 47);
+            this.txtAreaCont.Name = "txtAreaCont";
+            this.txtAreaCont.Size = new System.Drawing.Size(129, 22);
+            this.txtAreaCont.TabIndex = 7;
+            // 
+            // txtPerContenedor
+            // 
+            this.txtPerContenedor.Location = new System.Drawing.Point(173, 27);
+            this.txtPerContenedor.Name = "txtPerContenedor";
+            this.txtPerContenedor.Size = new System.Drawing.Size(129, 22);
+            this.txtPerContenedor.TabIndex = 6;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(9, 97);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(147, 16);
+            this.label8.TabIndex = 5;
+            this.label8.Text = "Área de los Círculos";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(9, 73);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(115, 16);
+            this.label7.TabIndex = 4;
+            this.label7.Text = "Área del Pétalo";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(9, 50);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(124, 16);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "Área Contenedor";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(9, 27);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(158, 16);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Perímetro Contenedor";
+            // 
             // FrmFlorCirculo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 489);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbTransformar);
             this.Controls.Add(this.grbCanvas);
             this.Controls.Add(this.grbProcess);
@@ -228,6 +345,8 @@
             this.grbProcess.ResumeLayout(false);
             this.grbInputs.ResumeLayout(false);
             this.grbInputs.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -247,7 +366,18 @@
         private System.Windows.Forms.Button btnResetear;
         private System.Windows.Forms.Button btnGraficar;
         private System.Windows.Forms.GroupBox grbInputs;
-        private System.Windows.Forms.TextBox txtRadio;
         private System.Windows.Forms.Label lblRadio;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtRadio;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox txtAreaCirc;
+        private System.Windows.Forms.TextBox txtAreaPet;
+        private System.Windows.Forms.TextBox txtAreaCont;
+        private System.Windows.Forms.TextBox txtPerContenedor;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
     }
 }
