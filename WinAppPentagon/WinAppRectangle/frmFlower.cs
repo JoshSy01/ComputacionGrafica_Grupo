@@ -58,11 +58,7 @@ namespace WinAppRectangle
             Close();
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
+ 
         private void tbEscala_Scroll(object sender, EventArgs e)
         {
             try
@@ -81,10 +77,6 @@ namespace WinAppRectangle
             }
         }
 
-        private void frmFlower_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void frmFlower_KeyDown(object sender, KeyEventArgs e)
         {

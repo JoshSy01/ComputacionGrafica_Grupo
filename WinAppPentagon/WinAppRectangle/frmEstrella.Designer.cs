@@ -1,6 +1,6 @@
 ﻿namespace WinAppRectangle
 {
-    partial class frmHexagonFlower
+    partial class frmEstrella
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.gbTransformar = new System.Windows.Forms.GroupBox();
-            this.tbEscala = new System.Windows.Forms.TrackBar();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnRotDer = new System.Windows.Forms.Button();
-            this.btnRotIzq = new System.Windows.Forms.Button();
             this.grbCanvas = new System.Windows.Forms.GroupBox();
             this.picCanvas = new System.Windows.Forms.PictureBox();
             this.grbProcess = new System.Windows.Forms.GroupBox();
@@ -43,21 +37,163 @@
             this.grbInputs = new System.Windows.Forms.GroupBox();
             this.txtRadio = new System.Windows.Forms.TextBox();
             this.lblRadio = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtAreaPor = new System.Windows.Forms.TextBox();
             this.txtPerPor = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.gbTransformar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tbEscala)).BeginInit();
+            this.gbTransformar = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.tbEscala = new System.Windows.Forms.TrackBar();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnRotDer = new System.Windows.Forms.Button();
+            this.btnRotIzq = new System.Windows.Forms.Button();
             this.grbCanvas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCanvas)).BeginInit();
             this.grbProcess.SuspendLayout();
             this.grbInputs.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.gbTransformar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tbEscala)).BeginInit();
             this.SuspendLayout();
+            // 
+            // grbCanvas
+            // 
+            this.grbCanvas.Controls.Add(this.picCanvas);
+            this.grbCanvas.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbCanvas.Location = new System.Drawing.Point(340, 53);
+            this.grbCanvas.Name = "grbCanvas";
+            this.grbCanvas.Size = new System.Drawing.Size(441, 388);
+            this.grbCanvas.TabIndex = 11;
+            this.grbCanvas.TabStop = false;
+            this.grbCanvas.Text = "Gráfico";
+            // 
+            // picCanvas
+            // 
+            this.picCanvas.Location = new System.Drawing.Point(6, 21);
+            this.picCanvas.Name = "picCanvas";
+            this.picCanvas.Size = new System.Drawing.Size(429, 361);
+            this.picCanvas.TabIndex = 0;
+            this.picCanvas.TabStop = false;
+            // 
+            // grbProcess
+            // 
+            this.grbProcess.Controls.Add(this.btnExit);
+            this.grbProcess.Controls.Add(this.btnReset);
+            this.grbProcess.Controls.Add(this.btnGraficar);
+            this.grbProcess.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbProcess.Location = new System.Drawing.Point(19, 113);
+            this.grbProcess.Name = "grbProcess";
+            this.grbProcess.Size = new System.Drawing.Size(315, 64);
+            this.grbProcess.TabIndex = 9;
+            this.grbProcess.TabStop = false;
+            this.grbProcess.Text = "Proceso";
+            // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(193, 31);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.TabIndex = 2;
+            this.btnExit.Text = "Salir";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnReset
+            // 
+            this.btnReset.Location = new System.Drawing.Point(98, 31);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(89, 23);
+            this.btnReset.TabIndex = 1;
+            this.btnReset.Text = "Resetear";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            // 
+            // btnGraficar
+            // 
+            this.btnGraficar.Location = new System.Drawing.Point(6, 31);
+            this.btnGraficar.Name = "btnGraficar";
+            this.btnGraficar.Size = new System.Drawing.Size(86, 23);
+            this.btnGraficar.TabIndex = 0;
+            this.btnGraficar.Text = "Graficar";
+            this.btnGraficar.UseVisualStyleBackColor = true;
+            this.btnGraficar.Click += new System.EventHandler(this.btnGraficar_Click);
+            // 
+            // grbInputs
+            // 
+            this.grbInputs.Controls.Add(this.txtRadio);
+            this.grbInputs.Controls.Add(this.lblRadio);
+            this.grbInputs.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbInputs.Location = new System.Drawing.Point(19, 50);
+            this.grbInputs.Name = "grbInputs";
+            this.grbInputs.Size = new System.Drawing.Size(315, 57);
+            this.grbInputs.TabIndex = 8;
+            this.grbInputs.TabStop = false;
+            this.grbInputs.Text = "Entradas";
+            // 
+            // txtRadio
+            // 
+            this.txtRadio.Location = new System.Drawing.Point(115, 24);
+            this.txtRadio.Name = "txtRadio";
+            this.txtRadio.Size = new System.Drawing.Size(129, 22);
+            this.txtRadio.TabIndex = 2;
+            // 
+            // lblRadio
+            // 
+            this.lblRadio.AutoSize = true;
+            this.lblRadio.Location = new System.Drawing.Point(9, 27);
+            this.lblRadio.Name = "lblRadio";
+            this.lblRadio.Size = new System.Drawing.Size(53, 16);
+            this.lblRadio.TabIndex = 0;
+            this.lblRadio.Text = "Radio:";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.txtAreaPor);
+            this.groupBox2.Controls.Add(this.txtPerPor);
+            this.groupBox2.Controls.Add(this.label11);
+            this.groupBox2.Controls.Add(this.label12);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(19, 355);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(315, 86);
+            this.groupBox2.TabIndex = 38;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Salidas";
+            // 
+            // txtAreaPor
+            // 
+            this.txtAreaPor.Location = new System.Drawing.Point(173, 47);
+            this.txtAreaPor.Name = "txtAreaPor";
+            this.txtAreaPor.Size = new System.Drawing.Size(129, 22);
+            this.txtAreaPor.TabIndex = 7;
+            // 
+            // txtPerPor
+            // 
+            this.txtPerPor.Location = new System.Drawing.Point(173, 27);
+            this.txtPerPor.Name = "txtPerPor";
+            this.txtPerPor.Size = new System.Drawing.Size(129, 22);
+            this.txtPerPor.TabIndex = 6;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(9, 50);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(44, 16);
+            this.label11.TabIndex = 3;
+            this.label11.Text = "Área ";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(9, 27);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(78, 16);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "Perímetro ";
             // 
             // gbTransformar
             // 
@@ -69,12 +205,31 @@
             this.gbTransformar.Controls.Add(this.btnRotDer);
             this.gbTransformar.Controls.Add(this.btnRotIzq);
             this.gbTransformar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbTransformar.Location = new System.Drawing.Point(19, 182);
+            this.gbTransformar.Location = new System.Drawing.Point(19, 183);
             this.gbTransformar.Name = "gbTransformar";
             this.gbTransformar.Size = new System.Drawing.Size(315, 166);
-            this.gbTransformar.TabIndex = 21;
+            this.gbTransformar.TabIndex = 37;
             this.gbTransformar.TabStop = false;
             this.gbTransformar.Text = "Transformación";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(135, 139);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(82, 16);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "Usar flechas";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(33, 139);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(81, 16);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Traslación";
             // 
             // tbEscala
             // 
@@ -125,174 +280,19 @@
             this.btnRotIzq.Text = "<-";
             this.btnRotIzq.UseVisualStyleBackColor = true;
             // 
-            // grbCanvas
-            // 
-            this.grbCanvas.Controls.Add(this.picCanvas);
-            this.grbCanvas.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbCanvas.Location = new System.Drawing.Point(340, 34);
-            this.grbCanvas.Name = "grbCanvas";
-            this.grbCanvas.Size = new System.Drawing.Size(441, 404);
-            this.grbCanvas.TabIndex = 22;
-            this.grbCanvas.TabStop = false;
-            this.grbCanvas.Text = "Gráfico";
-            // 
-            // picCanvas
-            // 
-            this.picCanvas.Location = new System.Drawing.Point(6, 21);
-            this.picCanvas.Name = "picCanvas";
-            this.picCanvas.Size = new System.Drawing.Size(429, 377);
-            this.picCanvas.TabIndex = 0;
-            this.picCanvas.TabStop = false;
-            // 
-            // grbProcess
-            // 
-            this.grbProcess.Controls.Add(this.btnExit);
-            this.grbProcess.Controls.Add(this.btnReset);
-            this.grbProcess.Controls.Add(this.btnGraficar);
-            this.grbProcess.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbProcess.Location = new System.Drawing.Point(19, 112);
-            this.grbProcess.Name = "grbProcess";
-            this.grbProcess.Size = new System.Drawing.Size(315, 64);
-            this.grbProcess.TabIndex = 20;
-            this.grbProcess.TabStop = false;
-            this.grbProcess.Text = "Proceso";
-            // 
-            // btnExit
-            // 
-            this.btnExit.Location = new System.Drawing.Point(203, 30);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 23);
-            this.btnExit.TabIndex = 2;
-            this.btnExit.Text = "Salir";
-            this.btnExit.UseVisualStyleBackColor = true;
-            // 
-            // btnReset
-            // 
-            this.btnReset.Location = new System.Drawing.Point(104, 30);
-            this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(93, 23);
-            this.btnReset.TabIndex = 1;
-            this.btnReset.Text = "Resetear";
-            this.btnReset.UseVisualStyleBackColor = true;
-            // 
-            // btnGraficar
-            // 
-            this.btnGraficar.Location = new System.Drawing.Point(7, 30);
-            this.btnGraficar.Name = "btnGraficar";
-            this.btnGraficar.Size = new System.Drawing.Size(91, 23);
-            this.btnGraficar.TabIndex = 0;
-            this.btnGraficar.Text = "Graficar";
-            this.btnGraficar.UseVisualStyleBackColor = true;
-            this.btnGraficar.Click += new System.EventHandler(this.btnGraficar_Click);
-            // 
-            // grbInputs
-            // 
-            this.grbInputs.Controls.Add(this.txtRadio);
-            this.grbInputs.Controls.Add(this.lblRadio);
-            this.grbInputs.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbInputs.Location = new System.Drawing.Point(19, 31);
-            this.grbInputs.Name = "grbInputs";
-            this.grbInputs.Size = new System.Drawing.Size(315, 66);
-            this.grbInputs.TabIndex = 19;
-            this.grbInputs.TabStop = false;
-            this.grbInputs.Text = "Entradas";
-            // 
-            // txtRadio
-            // 
-            this.txtRadio.Location = new System.Drawing.Point(115, 24);
-            this.txtRadio.Name = "txtRadio";
-            this.txtRadio.Size = new System.Drawing.Size(129, 22);
-            this.txtRadio.TabIndex = 2;
-            // 
-            // lblRadio
-            // 
-            this.lblRadio.AutoSize = true;
-            this.lblRadio.Location = new System.Drawing.Point(9, 27);
-            this.lblRadio.Name = "lblRadio";
-            this.lblRadio.Size = new System.Drawing.Size(53, 16);
-            this.lblRadio.TabIndex = 0;
-            this.lblRadio.Text = "Radio:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(135, 139);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 16);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "Usar flechas";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(33, 139);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 16);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "Traslación";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.txtAreaPor);
-            this.groupBox2.Controls.Add(this.txtPerPor);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(19, 354);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(315, 86);
-            this.groupBox2.TabIndex = 36;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Salidas";
-            // 
-            // txtAreaPor
-            // 
-            this.txtAreaPor.Location = new System.Drawing.Point(173, 47);
-            this.txtAreaPor.Name = "txtAreaPor";
-            this.txtAreaPor.Size = new System.Drawing.Size(129, 22);
-            this.txtAreaPor.TabIndex = 7;
-            // 
-            // txtPerPor
-            // 
-            this.txtPerPor.Location = new System.Drawing.Point(173, 27);
-            this.txtPerPor.Name = "txtPerPor";
-            this.txtPerPor.Size = new System.Drawing.Size(129, 22);
-            this.txtPerPor.TabIndex = 6;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(9, 50);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(44, 16);
-            this.label11.TabIndex = 3;
-            this.label11.Text = "Área ";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(9, 27);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(78, 16);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Perímetro ";
-            // 
-            // frmHexagonFlower
+            // frmEstrella
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 460);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.gbTransformar);
             this.Controls.Add(this.grbCanvas);
             this.Controls.Add(this.grbProcess);
             this.Controls.Add(this.grbInputs);
-            this.Name = "frmHexagonFlower";
-            this.Text = "frmHexagonFlower";
-            this.gbTransformar.ResumeLayout(false);
-            this.gbTransformar.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tbEscala)).EndInit();
+            this.Name = "frmEstrella";
+            this.Text = "frmEstrella";
+            this.Load += new System.EventHandler(this.frmPentagon_Load);
             this.grbCanvas.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picCanvas)).EndInit();
             this.grbProcess.ResumeLayout(false);
@@ -300,18 +300,15 @@
             this.grbInputs.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.gbTransformar.ResumeLayout(false);
+            this.gbTransformar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tbEscala)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox gbTransformar;
-        private System.Windows.Forms.TrackBar tbEscala;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnRotDer;
-        private System.Windows.Forms.Button btnRotIzq;
         private System.Windows.Forms.GroupBox grbCanvas;
         private System.Windows.Forms.PictureBox picCanvas;
         private System.Windows.Forms.GroupBox grbProcess;
@@ -321,12 +318,18 @@
         private System.Windows.Forms.GroupBox grbInputs;
         private System.Windows.Forms.TextBox txtRadio;
         private System.Windows.Forms.Label lblRadio;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox txtAreaPor;
         private System.Windows.Forms.TextBox txtPerPor;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.GroupBox gbTransformar;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TrackBar tbEscala;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnRotDer;
+        private System.Windows.Forms.Button btnRotIzq;
     }
 }

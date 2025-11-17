@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace WinAppRectangle
 {
-    public partial class frmPentagon : Form
+    public partial class frmEstrella : Form
     {
         CPentagon ObjPentagon = new CPentagon();
 
-        public frmPentagon()
+        public frmEstrella()
         {
             InitializeComponent();
         }
