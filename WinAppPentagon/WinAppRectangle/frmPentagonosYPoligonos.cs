@@ -143,5 +143,12 @@ namespace WinAppRectangle
             tetha -= 0.0872665f;
             ObjPentyPoli.PlotShape(picCanvas, center, tetha);
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+
     }
 }
