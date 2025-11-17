@@ -36,7 +36,7 @@ namespace WinAppRectangle
                 {
                     pentaPoints[0][i] = new Punto();
                 }
-                for (int i = 0; i < 5;  i++)
+                for (int i = 0; i < 5; i++)
                 {
                     pentaPoints[1][i] = new Punto();
                 }
@@ -94,9 +94,9 @@ namespace WinAppRectangle
             DrawLine(0, 3, 0, 0);
 
 
-            
-            for (int i = 0; i < 5; i++) 
-            { 
+
+            for (int i = 0; i < 5; i++)
+            {
                 tetha = (float)((i * 1.25664) + tethaAdd + 0.314159);
                 pentaPoints[1][i].x = (center.x + (radio * 1.40) * Math.Cos(tetha));
                 pentaPoints[1][i].y = (center.y + (radio * 1.40) * Math.Sin(tetha));
@@ -159,14 +159,14 @@ namespace WinAppRectangle
 
             int tethaIndex = 0;
 
-            for (int i = 0; i < 10; i+=4)
+            for (int i = 0; i < 10; i += 4)
             {
                 tetha = (float)((tethaIndex * 1.25664) + tethaAdd - 0.314159 - 0.174533);
                 pentaPoints[3][i].x = (center.x + (radio * 3.25) * Math.Cos(tetha));
                 pentaPoints[3][i].y = (center.y + (radio * 3.25) * Math.Sin(tetha));
                 tetha = (float)((tethaIndex * 1.25664) + tethaAdd - 0.314159 + 0.174533);
-                pentaPoints[3][i+1].x = (center.x + (radio * 3.25) * Math.Cos(tetha));
-                pentaPoints[3][i+1].y = (center.y + (radio * 3.25) * Math.Sin(tetha));
+                pentaPoints[3][i + 1].x = (center.x + (radio * 3.25) * Math.Cos(tetha));
+                pentaPoints[3][i + 1].y = (center.y + (radio * 3.25) * Math.Sin(tetha));
                 tethaIndex++;
 
                 if (i < 8)
@@ -179,7 +179,7 @@ namespace WinAppRectangle
                     pentaPoints[3][i + 3].y = (center.y + (radio * 3.25) * Math.Sin(tetha));
                     tethaIndex++;
                 }
-                
+
             }
 
 
@@ -214,5 +214,38 @@ namespace WinAppRectangle
 
             DrawLine(3, 9, 0, 0);
         }
-    }
+    
+    public double CalcularPerimetroPoligonoGrande()
+        {
+            double R = radio * 3.25;  // radio del círculo donde están los 10 vértices
+
+            double degToRad = Math.PI / 180.0;
+            double angCorto = 20.0 * degToRad; // 20°
+            double angLargo = 52.0 * degToRad; // 52°
+
+            // Lados como cuerdas
+            double ladoCorto = 2.0 * R * Math.Sin(angCorto / 2.0);
+            double ladoLargo = 2.0 * R * Math.Sin(angLargo / 2.0);
+
+            // 5 cortos + 5 largos
+            double perimetro = 5.0 * ladoCorto + 5.0 * ladoLargo;
+
+            return perimetro;
+        }
+
+        public double CalcularAreaPoligonoGrande()
+        {
+            double R = radio * 3.25;
+
+            double degToRad = Math.PI / 180.0;
+            double angCorto = 20.0 * degToRad; // 20°
+            double angLargo = 52.0 * degToRad; // 52°
+
+            // Área = suma de áreas de 10 triángulos isósceles
+            double area = 0.5 * R * R * (5.0 * Math.Sin(angCorto) + 5.0 * Math.Sin(angLargo));
+
+            return area;
+        }
+
+    } 
 }

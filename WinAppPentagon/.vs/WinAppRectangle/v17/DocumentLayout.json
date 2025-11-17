@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USUARIO\\STEFY\\6toSemestre\\Gr\u00E1fica\\1P\\proyecto1P\\ComputacionGrafica_Grupo\\WinAppPentagon\\",
+  "WorkspaceRootPath": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|C:\\Users\\USUARIO\\STEFY\\6toSemestre\\Gr\u00E1fica\\1P\\proyecto1P\\ComputacionGrafica_Grupo\\WinAppPentagon\\winapprectangle\\frmpoligono16_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\frmpoligono16_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\justi\\onedrive\\documentos\\universidad semestre a\\grafica\\proyecto 1\\computaciongrafica_grupo\\winapppentagon\\winapprectangle\\frmpentagonosypoligonos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\frmpentagonosypoligonos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\usuario\\stefy\\6tosemestre\\gr\u00E1fica\\1p\\proyecto1p\\computaciongrafica_grupo\\winapppentagon\\winapprectangle\\florcirculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\florcirculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\justi\\onedrive\\documentos\\universidad semestre a\\grafica\\proyecto 1\\computaciongrafica_grupo\\winapppentagon\\winapprectangle\\frmpentagonosypoligonos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\frmpentagonosypoligonos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\usuario\\stefy\\6tosemestre\\gr\u00E1fica\\1p\\proyecto1p\\computaciongrafica_grupo\\winapppentagon\\winapprectangle\\florcirculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\florcirculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\justi\\onedrive\\documentos\\universidad semestre a\\grafica\\proyecto 1\\computaciongrafica_grupo\\winapppentagon\\winapprectangle\\cpentagonosypoligonos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\cpentagonosypoligonos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\usuario\\stefy\\6tosemestre\\gr\u00E1fica\\1p\\proyecto1p\\computaciongrafica_grupo\\winapppentagon\\winapprectangle\\frmpoligono16_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\frmpoligono16_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\justi\\onedrive\\documentos\\universidad semestre a\\grafica\\proyecto 1\\computaciongrafica_grupo\\winapppentagon\\winapprectangle\\frmcopodenieve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\frmcopodenieve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\justi\\onedrive\\documentos\\universidad semestre a\\grafica\\proyecto 1\\computaciongrafica_grupo\\winapppentagon\\winapprectangle\\frmcopodenieve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\frmcopodenieve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\justi\\onedrive\\documentos\\universidad semestre a\\grafica\\proyecto 1\\computaciongrafica_grupo\\winapppentagon\\winapprectangle\\ccopodenieve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\ccopodenieve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 274,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FlorCirculo.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\STEFY\\6toSemestre\\Gr\u00E1fica\\1P\\proyecto1P\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\FlorCirculo.cs",
-              "RelativeDocumentMoniker": "WinAppRectangle\\FlorCirculo.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\STEFY\\6toSemestre\\Gr\u00E1fica\\1P\\proyecto1P\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\FlorCirculo.cs",
-              "RelativeToolTip": "WinAppRectangle\\FlorCirculo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "frmPentagonosYPoligonos.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\frmPentagonosYPoligonos.cs",
+              "RelativeDocumentMoniker": "WinAppRectangle\\frmPentagonosYPoligonos.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\frmPentagonosYPoligonos.cs",
+              "RelativeToolTip": "WinAppRectangle\\frmPentagonosYPoligonos.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIAwwHsAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T04:05:16.649Z",
+              "WhenOpened": "2025-11-17T22:19:44.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FlorCirculo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\STEFY\\6toSemestre\\Gr\u00E1fica\\1P\\proyecto1P\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\FlorCirculo.cs",
-              "RelativeDocumentMoniker": "WinAppRectangle\\FlorCirculo.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\STEFY\\6toSemestre\\Gr\u00E1fica\\1P\\proyecto1P\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\FlorCirculo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "WinAppRectangle\\FlorCirculo.cs [Dise\u00F1o]",
+              "Title": "frmPentagonosYPoligonos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\frmPentagonosYPoligonos.cs",
+              "RelativeDocumentMoniker": "WinAppRectangle\\frmPentagonosYPoligonos.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\frmPentagonosYPoligonos.cs [Design]",
+              "RelativeToolTip": "WinAppRectangle\\frmPentagonosYPoligonos.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T04:02:08.081Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-11-17T22:19:40.131Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmPoligono16_8.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\STEFY\\6toSemestre\\Gr\u00E1fica\\1P\\proyecto1P\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\FrmPoligono16_8.cs",
-              "RelativeDocumentMoniker": "WinAppRectangle\\FrmPoligono16_8.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\STEFY\\6toSemestre\\Gr\u00E1fica\\1P\\proyecto1P\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\FrmPoligono16_8.cs [Dise\u00F1o]",
-              "RelativeToolTip": "WinAppRectangle\\FrmPoligono16_8.cs [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "CPentagonosYPoligonos.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\CPentagonosYPoligonos.cs",
+              "RelativeDocumentMoniker": "WinAppRectangle\\CPentagonosYPoligonos.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\CPentagonosYPoligonos.cs",
+              "RelativeToolTip": "WinAppRectangle\\CPentagonosYPoligonos.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAADwv9gAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T02:30:45.514Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-11-17T22:13:35.121Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FrmPoligono16_8.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\STEFY\\6toSemestre\\Gr\u00E1fica\\1P\\proyecto1P\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\FrmPoligono16_8.cs",
-              "RelativeDocumentMoniker": "WinAppRectangle\\FrmPoligono16_8.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\STEFY\\6toSemestre\\Gr\u00E1fica\\1P\\proyecto1P\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\FrmPoligono16_8.cs",
-              "RelativeToolTip": "WinAppRectangle\\FrmPoligono16_8.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwB4AAAAiAAAAAAAAAA==",
+              "Title": "frmCopoDeNieve.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\frmCopoDeNieve.cs",
+              "RelativeDocumentMoniker": "WinAppRectangle\\frmCopoDeNieve.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\frmCopoDeNieve.cs",
+              "RelativeToolTip": "WinAppRectangle\\frmCopoDeNieve.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAjwGEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T02:32:59.54Z",
+              "WhenOpened": "2025-11-17T22:11:29.402Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CCopoDeNieve.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\CCopoDeNieve.cs",
+              "RelativeDocumentMoniker": "WinAppRectangle\\CCopoDeNieve.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\CCopoDeNieve.cs",
+              "RelativeToolTip": "WinAppRectangle\\CCopoDeNieve.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAIwMkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T22:00:42.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmCopoDeNieve.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\frmCopoDeNieve.cs",
+              "RelativeDocumentMoniker": "WinAppRectangle\\frmCopoDeNieve.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\frmCopoDeNieve.cs [Design]",
+              "RelativeToolTip": "WinAppRectangle\\frmCopoDeNieve.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T22:00:34.031Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -105,6 +105,7 @@
             this.tbEscala.Size = new System.Drawing.Size(177, 56);
             this.tbEscala.TabIndex = 5;
             this.tbEscala.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.tbEscala.Scroll += new System.EventHandler(this.tbEscala_Scroll);
             // 
             // label2
             // 
@@ -133,6 +134,7 @@
             this.btnRotDer.TabIndex = 2;
             this.btnRotDer.Text = "->";
             this.btnRotDer.UseVisualStyleBackColor = true;
+            this.btnRotDer.Click += new System.EventHandler(this.btnRotDer_Click);
             // 
             // btnRotIzq
             // 
@@ -143,6 +145,7 @@
             this.btnRotIzq.TabIndex = 1;
             this.btnRotIzq.Text = "<-";
             this.btnRotIzq.UseVisualStyleBackColor = true;
+            this.btnRotIzq.Click += new System.EventHandler(this.btnRotIzq_Click);
             // 
             // grbCanvas
             // 
@@ -193,6 +196,7 @@
             this.btnReset.TabIndex = 1;
             this.btnReset.Text = "Resetear";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnGraficar
             // 
@@ -290,6 +294,8 @@
             this.Controls.Add(this.grbInputs);
             this.Name = "frmCopoDeNieve";
             this.Text = "frmCopoDeNieve";
+            this.Load += new System.EventHandler(this.frmCopoDeNieve_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmCopoDeNieve_KeyDown);
             this.gbTransformar.ResumeLayout(false);
             this.gbTransformar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tbEscala)).EndInit();

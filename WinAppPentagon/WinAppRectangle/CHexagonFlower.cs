@@ -69,7 +69,7 @@ namespace WinAppRectangle
         public void PlotShape(PictureBox picCanvas, Punto center, float tethaAdd)
         {
             mGraphic = picCanvas.CreateGraphics();
-            mPen = new Pen(Color.Black, 1);
+            mPen = new Pen(Color.White, 1);
 
             float tetha = 0.0f;
             pentaPoints[2][0].x = center.x;
@@ -93,11 +93,12 @@ namespace WinAppRectangle
             {
                 for (int k = 0; k < 5; k++)
                 {
+                    mPen = new Pen(Color.White, (float)(k * 1.3));
                     for (int i = 0; i < 6; i++)
                     {
                         tetha = (float)((i * 1.0472) + tethaAdd - 1.5708 + (1.0472 * j));
-                        pentaPoints[1][i].x = (pentaPoints[0][j].x + (radio * 0.2 * (k+1)) * Math.Cos(tetha));
-                        pentaPoints[1][i].y = (pentaPoints[0][j].y + (radio * 0.2 * (k+1)) * Math.Sin(tetha));
+                        pentaPoints[1][i].x = (pentaPoints[0][j].x + (radio * 0.2 * (k + 1)) * Math.Cos(tetha));
+                        pentaPoints[1][i].y = (pentaPoints[0][j].y + (radio * 0.2 * (k + 1)) * Math.Sin(tetha));
                     }
 
                     for (int i = 0; i < 4; i++)
@@ -106,9 +107,20 @@ namespace WinAppRectangle
                     }
                 }
             }
-            
-
-
         }
+
+
+        public double CalcularPerimetroHexagono()
+        {
+            return 6.0 * radio;
+        }
+
+        public double CalcularAreaHexagono()
+        {
+            return (3.0 * Math.Sqrt(3) / 2.0) * radio * radio;
+        }
+
+
     }
 }
+

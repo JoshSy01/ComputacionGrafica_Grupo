@@ -188,6 +188,18 @@ namespace WinAppRectangle
                 DrawLine(7, 3, 1, 2);
             }
         }
+        public double CalcularPerimetroDecagono()
+        {
+            double R = radio;
+            return 20.0 * R * Math.Sin(Math.PI / 10.0);
+        }
+
+        public double CalcularAreaDecagono()
+        {
+            double R = radio;
+            return 5.0 * R * R * Math.Sin(Math.PI / 5.0);
+        }
+
 
     }
 

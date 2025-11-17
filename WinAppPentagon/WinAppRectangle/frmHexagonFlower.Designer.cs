@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.gbTransformar = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.tbEscala = new System.Windows.Forms.TrackBar();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -43,8 +45,6 @@
             this.grbInputs = new System.Windows.Forms.GroupBox();
             this.txtRadio = new System.Windows.Forms.TextBox();
             this.lblRadio = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtAreaPor = new System.Windows.Forms.TextBox();
             this.txtPerPor = new System.Windows.Forms.TextBox();
@@ -76,6 +76,25 @@
             this.gbTransformar.TabStop = false;
             this.gbTransformar.Text = "Transformación";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(135, 139);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(82, 16);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "Usar flechas";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(33, 139);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(81, 16);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Traslación";
+            // 
             // tbEscala
             // 
             this.tbEscala.Enabled = false;
@@ -86,6 +105,7 @@
             this.tbEscala.Size = new System.Drawing.Size(177, 56);
             this.tbEscala.TabIndex = 5;
             this.tbEscala.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.tbEscala.Scroll += new System.EventHandler(this.tbEscala_Scroll);
             // 
             // label2
             // 
@@ -114,6 +134,7 @@
             this.btnRotDer.TabIndex = 2;
             this.btnRotDer.Text = "->";
             this.btnRotDer.UseVisualStyleBackColor = true;
+            this.btnRotDer.Click += new System.EventHandler(this.btnRotDer_Click);
             // 
             // btnRotIzq
             // 
@@ -124,6 +145,7 @@
             this.btnRotIzq.TabIndex = 1;
             this.btnRotIzq.Text = "<-";
             this.btnRotIzq.UseVisualStyleBackColor = true;
+            this.btnRotIzq.Click += new System.EventHandler(this.btnRotIzq_Click);
             // 
             // grbCanvas
             // 
@@ -174,6 +196,7 @@
             this.btnReset.TabIndex = 1;
             this.btnReset.Text = "Resetear";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnGraficar
             // 
@@ -212,25 +235,6 @@
             this.lblRadio.Size = new System.Drawing.Size(53, 16);
             this.lblRadio.TabIndex = 0;
             this.lblRadio.Text = "Radio:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(135, 139);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 16);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "Usar flechas";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(33, 139);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 16);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "Traslación";
             // 
             // groupBox2
             // 
@@ -290,6 +294,7 @@
             this.Controls.Add(this.grbInputs);
             this.Name = "frmHexagonFlower";
             this.Text = "frmHexagonFlower";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmHexagonFlower_KeyDown);
             this.gbTransformar.ResumeLayout(false);
             this.gbTransformar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tbEscala)).EndInit();
