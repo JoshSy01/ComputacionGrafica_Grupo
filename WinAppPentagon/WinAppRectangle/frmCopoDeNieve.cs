@@ -28,5 +28,6 @@ namespace WinAppRectangle
             copoDeNieve.ReadData(float.Parse(txtRadio.Text));
             copoDeNieve.PlotShape(picCanvas, center, tethaAdd);
         }
+
     }
 }
