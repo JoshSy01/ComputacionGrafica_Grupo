@@ -131,5 +131,6 @@ namespace WinAppFigure
             ObjFigura.PlotShape(picCanvas, center, tetha, tbEscala.Value);
         }
 
+
     }
 }
