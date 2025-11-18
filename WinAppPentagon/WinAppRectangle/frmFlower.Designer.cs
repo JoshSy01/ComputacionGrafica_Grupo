@@ -38,13 +38,13 @@
             this.txtRadio = new System.Windows.Forms.TextBox();
             this.lblRadio = new System.Windows.Forms.Label();
             this.gbTransformar = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.tbEscala = new System.Windows.Forms.TrackBar();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnRotDer = new System.Windows.Forms.Button();
             this.btnRotIzq = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtAreaPor = new System.Windows.Forms.TextBox();
             this.txtPerPor = new System.Windows.Forms.TextBox();
@@ -77,7 +77,6 @@
             this.picCanvas.Size = new System.Drawing.Size(429, 368);
             this.picCanvas.TabIndex = 0;
             this.picCanvas.TabStop = false;
-            this.picCanvas.Click += new System.EventHandler(this.picCanvas_Click);
             this.picCanvas.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.picCanvas_PreviewKeyDown);
             // 
             // grbProcess
@@ -168,6 +167,25 @@
             this.gbTransformar.TabStop = false;
             this.gbTransformar.Text = "Transformación";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(131, 138);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(82, 16);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "Usar flechas";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(29, 138);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(81, 16);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Traslación";
+            // 
             // tbEscala
             // 
             this.tbEscala.Enabled = false;
@@ -220,25 +238,6 @@
             this.btnRotIzq.UseVisualStyleBackColor = true;
             this.btnRotIzq.Click += new System.EventHandler(this.btnRotIzq_Click);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(131, 138);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 16);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "Usar flechas";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(29, 138);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 16);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Traslación";
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.txtAreaPor);
@@ -255,6 +254,7 @@
             // 
             // txtAreaPor
             // 
+            this.txtAreaPor.Enabled = false;
             this.txtAreaPor.Location = new System.Drawing.Point(173, 47);
             this.txtAreaPor.Name = "txtAreaPor";
             this.txtAreaPor.Size = new System.Drawing.Size(129, 22);

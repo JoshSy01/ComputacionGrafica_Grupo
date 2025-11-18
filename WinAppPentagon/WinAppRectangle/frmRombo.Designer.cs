@@ -29,33 +29,33 @@
         private void InitializeComponent()
         {
             this.gbTransformar = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.tbEscala = new System.Windows.Forms.TrackBar();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnRotDer = new System.Windows.Forms.Button();
             this.btnRotIzq = new System.Windows.Forms.Button();
-            this.grbCanvas = new System.Windows.Forms.GroupBox();
-            this.picCanvas = new System.Windows.Forms.PictureBox();
             this.grbProcess = new System.Windows.Forms.GroupBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
             this.btnGraficar = new System.Windows.Forms.Button();
             this.grbInputs = new System.Windows.Forms.GroupBox();
-            this.txtRadio = new System.Windows.Forms.TextBox();
+            this.txtLado = new System.Windows.Forms.TextBox();
             this.lblRadio = new System.Windows.Forms.Label();
-            this.grbOutputs = new System.Windows.Forms.GroupBox();
-            this.txtArea = new System.Windows.Forms.TextBox();
-            this.txtPerimeter = new System.Windows.Forms.TextBox();
-            this.lblArea = new System.Windows.Forms.Label();
+            this.picCanvas = new System.Windows.Forms.PictureBox();
+            this.grbCanvas = new System.Windows.Forms.GroupBox();
             this.lblPerimeter = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblArea = new System.Windows.Forms.Label();
+            this.txtPerimeter = new System.Windows.Forms.TextBox();
+            this.txtArea = new System.Windows.Forms.TextBox();
+            this.grbOutputs = new System.Windows.Forms.GroupBox();
             this.gbTransformar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tbEscala)).BeginInit();
-            this.grbCanvas.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCanvas)).BeginInit();
             this.grbProcess.SuspendLayout();
             this.grbInputs.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCanvas)).BeginInit();
+            this.grbCanvas.SuspendLayout();
             this.grbOutputs.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,12 +69,31 @@
             this.gbTransformar.Controls.Add(this.btnRotDer);
             this.gbTransformar.Controls.Add(this.btnRotIzq);
             this.gbTransformar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbTransformar.Location = new System.Drawing.Point(19, 172);
+            this.gbTransformar.Location = new System.Drawing.Point(19, 278);
             this.gbTransformar.Name = "gbTransformar";
             this.gbTransformar.Size = new System.Drawing.Size(315, 178);
             this.gbTransformar.TabIndex = 21;
             this.gbTransformar.TabStop = false;
             this.gbTransformar.Text = "Transformación";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(131, 141);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(82, 16);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "Usar flechas";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(29, 141);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(81, 16);
+            this.label3.TabIndex = 18;
+            this.label3.Text = "Traslación";
             // 
             // tbEscala
             // 
@@ -125,25 +144,6 @@
             this.btnRotIzq.Text = "<-";
             this.btnRotIzq.UseVisualStyleBackColor = true;
             // 
-            // grbCanvas
-            // 
-            this.grbCanvas.Controls.Add(this.picCanvas);
-            this.grbCanvas.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbCanvas.Location = new System.Drawing.Point(340, 34);
-            this.grbCanvas.Name = "grbCanvas";
-            this.grbCanvas.Size = new System.Drawing.Size(441, 388);
-            this.grbCanvas.TabIndex = 22;
-            this.grbCanvas.TabStop = false;
-            this.grbCanvas.Text = "Gráfico";
-            // 
-            // picCanvas
-            // 
-            this.picCanvas.Location = new System.Drawing.Point(6, 21);
-            this.picCanvas.Name = "picCanvas";
-            this.picCanvas.Size = new System.Drawing.Size(429, 361);
-            this.picCanvas.TabIndex = 0;
-            this.picCanvas.TabStop = false;
-            // 
             // grbProcess
             // 
             this.grbProcess.Controls.Add(this.btnExit);
@@ -187,7 +187,7 @@
             // 
             // grbInputs
             // 
-            this.grbInputs.Controls.Add(this.txtRadio);
+            this.grbInputs.Controls.Add(this.txtLado);
             this.grbInputs.Controls.Add(this.lblRadio);
             this.grbInputs.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbInputs.Location = new System.Drawing.Point(19, 31);
@@ -197,60 +197,40 @@
             this.grbInputs.TabStop = false;
             this.grbInputs.Text = "Entradas";
             // 
-            // txtRadio
+            // txtLado
             // 
-            this.txtRadio.Location = new System.Drawing.Point(71, 43);
-            this.txtRadio.Name = "txtRadio";
-            this.txtRadio.Size = new System.Drawing.Size(129, 22);
-            this.txtRadio.TabIndex = 2;
+            this.txtLado.Location = new System.Drawing.Point(71, 43);
+            this.txtLado.Name = "txtLado";
+            this.txtLado.Size = new System.Drawing.Size(129, 22);
+            this.txtLado.TabIndex = 2;
             // 
             // lblRadio
             // 
             this.lblRadio.AutoSize = true;
             this.lblRadio.Location = new System.Drawing.Point(6, 24);
             this.lblRadio.Name = "lblRadio";
-            this.lblRadio.Size = new System.Drawing.Size(175, 16);
+            this.lblRadio.Size = new System.Drawing.Size(42, 16);
             this.lblRadio.TabIndex = 0;
-            this.lblRadio.Text = "Cantidad de segmentos:";
+            this.lblRadio.Text = "Lado";
             // 
-            // grbOutputs
+            // picCanvas
             // 
-            this.grbOutputs.Controls.Add(this.txtArea);
-            this.grbOutputs.Controls.Add(this.txtPerimeter);
-            this.grbOutputs.Controls.Add(this.lblArea);
-            this.grbOutputs.Controls.Add(this.lblPerimeter);
-            this.grbOutputs.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbOutputs.Location = new System.Drawing.Point(19, 356);
-            this.grbOutputs.Name = "grbOutputs";
-            this.grbOutputs.Size = new System.Drawing.Size(315, 100);
-            this.grbOutputs.TabIndex = 23;
-            this.grbOutputs.TabStop = false;
-            this.grbOutputs.Text = "Salidas";
+            this.picCanvas.Location = new System.Drawing.Point(6, 21);
+            this.picCanvas.Name = "picCanvas";
+            this.picCanvas.Size = new System.Drawing.Size(429, 361);
+            this.picCanvas.TabIndex = 0;
+            this.picCanvas.TabStop = false;
             // 
-            // txtArea
+            // grbCanvas
             // 
-            this.txtArea.Enabled = false;
-            this.txtArea.Location = new System.Drawing.Point(113, 57);
-            this.txtArea.Name = "txtArea";
-            this.txtArea.Size = new System.Drawing.Size(129, 22);
-            this.txtArea.TabIndex = 5;
-            // 
-            // txtPerimeter
-            // 
-            this.txtPerimeter.Enabled = false;
-            this.txtPerimeter.Location = new System.Drawing.Point(113, 29);
-            this.txtPerimeter.Name = "txtPerimeter";
-            this.txtPerimeter.Size = new System.Drawing.Size(129, 22);
-            this.txtPerimeter.TabIndex = 4;
-            // 
-            // lblArea
-            // 
-            this.lblArea.AutoSize = true;
-            this.lblArea.Location = new System.Drawing.Point(7, 60);
-            this.lblArea.Name = "lblArea";
-            this.lblArea.Size = new System.Drawing.Size(44, 16);
-            this.lblArea.TabIndex = 3;
-            this.lblArea.Text = "Área:";
+            this.grbCanvas.Controls.Add(this.picCanvas);
+            this.grbCanvas.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbCanvas.Location = new System.Drawing.Point(340, 34);
+            this.grbCanvas.Name = "grbCanvas";
+            this.grbCanvas.Size = new System.Drawing.Size(441, 388);
+            this.grbCanvas.TabIndex = 22;
+            this.grbCanvas.TabStop = false;
+            this.grbCanvas.Text = "Gráfico";
             // 
             // lblPerimeter
             // 
@@ -261,30 +241,50 @@
             this.lblPerimeter.TabIndex = 2;
             this.lblPerimeter.Text = "Perímetro:";
             // 
-            // label4
+            // lblArea
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(131, 141);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 16);
-            this.label4.TabIndex = 19;
-            this.label4.Text = "Usar flechas";
+            this.lblArea.AutoSize = true;
+            this.lblArea.Location = new System.Drawing.Point(7, 60);
+            this.lblArea.Name = "lblArea";
+            this.lblArea.Size = new System.Drawing.Size(44, 16);
+            this.lblArea.TabIndex = 3;
+            this.lblArea.Text = "Área:";
             // 
-            // label3
+            // txtPerimeter
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(29, 141);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 16);
-            this.label3.TabIndex = 18;
-            this.label3.Text = "Traslación";
+            this.txtPerimeter.Enabled = false;
+            this.txtPerimeter.Location = new System.Drawing.Point(113, 29);
+            this.txtPerimeter.Name = "txtPerimeter";
+            this.txtPerimeter.Size = new System.Drawing.Size(129, 22);
+            this.txtPerimeter.TabIndex = 4;
+            // 
+            // txtArea
+            // 
+            this.txtArea.Enabled = false;
+            this.txtArea.Location = new System.Drawing.Point(113, 57);
+            this.txtArea.Name = "txtArea";
+            this.txtArea.Size = new System.Drawing.Size(129, 22);
+            this.txtArea.TabIndex = 5;
+            // 
+            // grbOutputs
+            // 
+            this.grbOutputs.Controls.Add(this.txtArea);
+            this.grbOutputs.Controls.Add(this.txtPerimeter);
+            this.grbOutputs.Controls.Add(this.lblArea);
+            this.grbOutputs.Controls.Add(this.lblPerimeter);
+            this.grbOutputs.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbOutputs.Location = new System.Drawing.Point(25, 172);
+            this.grbOutputs.Name = "grbOutputs";
+            this.grbOutputs.Size = new System.Drawing.Size(315, 100);
+            this.grbOutputs.TabIndex = 23;
+            this.grbOutputs.TabStop = false;
+            this.grbOutputs.Text = "Salidas";
             // 
             // frmRombo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 468);
+            this.ClientSize = new System.Drawing.Size(798, 476);
             this.Controls.Add(this.grbOutputs);
             this.Controls.Add(this.gbTransformar);
             this.Controls.Add(this.grbCanvas);
@@ -295,11 +295,11 @@
             this.gbTransformar.ResumeLayout(false);
             this.gbTransformar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tbEscala)).EndInit();
-            this.grbCanvas.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picCanvas)).EndInit();
             this.grbProcess.ResumeLayout(false);
             this.grbInputs.ResumeLayout(false);
             this.grbInputs.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCanvas)).EndInit();
+            this.grbCanvas.ResumeLayout(false);
             this.grbOutputs.ResumeLayout(false);
             this.grbOutputs.PerformLayout();
             this.ResumeLayout(false);
@@ -314,21 +314,21 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnRotDer;
         private System.Windows.Forms.Button btnRotIzq;
-        private System.Windows.Forms.GroupBox grbCanvas;
-        private System.Windows.Forms.PictureBox picCanvas;
         private System.Windows.Forms.GroupBox grbProcess;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Button btnGraficar;
         private System.Windows.Forms.GroupBox grbInputs;
-        private System.Windows.Forms.TextBox txtRadio;
+        private System.Windows.Forms.TextBox txtLado;
         private System.Windows.Forms.Label lblRadio;
-        private System.Windows.Forms.GroupBox grbOutputs;
-        private System.Windows.Forms.TextBox txtArea;
-        private System.Windows.Forms.TextBox txtPerimeter;
-        private System.Windows.Forms.Label lblArea;
-        private System.Windows.Forms.Label lblPerimeter;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox picCanvas;
+        private System.Windows.Forms.GroupBox grbCanvas;
+        private System.Windows.Forms.Label lblPerimeter;
+        private System.Windows.Forms.Label lblArea;
+        private System.Windows.Forms.TextBox txtPerimeter;
+        private System.Windows.Forms.TextBox txtArea;
+        private System.Windows.Forms.GroupBox grbOutputs;
     }
 }

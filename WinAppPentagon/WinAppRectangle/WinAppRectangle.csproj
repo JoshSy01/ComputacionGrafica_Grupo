@@ -47,7 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CCopoDeNieve.cs" />
+    <Compile Include="CEstrella.cs" />
     <Compile Include="CFigura4.cs" />
+    <Compile Include="CFlor.cs" />
     <Compile Include="CFlower.cs" />
     <Compile Include="CHexagonFlower.cs" />
     <Compile Include="CPentagon.cs" />
