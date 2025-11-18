@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\justi\\onedrive\\documentos\\universidad semestre a\\grafica\\proyecto 1\\computaciongrafica_grupo\\winapppentagon\\winapprectangle\\frmhexagonflower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\justi\\onedrive\\documentos\\universidad semestre a\\grafica\\proyecto 1\\computaciongrafica_grupo\\winapppentagon\\winapprectangle\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\winapprectangle\\frmhexagonflower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\frmhexagonflower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\justi\\onedrive\\documentos\\universidad semestre a\\grafica\\proyecto 1\\computaciongrafica_grupo\\winapppentagon\\winapprectangle\\frmhexagonflower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\winapprectangle\\frmhexagonflower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\frmhexagonflower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\justi\\onedrive\\documentos\\universidad semestre a\\grafica\\proyecto 1\\computaciongrafica_grupo\\winapppentagon\\winapprectangle\\florcirculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\winapprectangle\\florcirculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\florcirculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -19,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\frmfigura4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|c:\\users\\justi\\onedrive\\documentos\\universidad semestre a\\grafica\\proyecto 1\\computaciongrafica_grupo\\winapppentagon\\winapprectangle\\frmestrella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\winapprectangle\\frmestrella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CD2C1DB7-A857-441B-809A-C29360CA4645}|WinAppRectangle\\WinAppRectangle.csproj|solutionrelative:winapprectangle\\frmestrella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\Menu.cs",
+              "RelativeDocumentMoniker": "WinAppRectangle\\Menu.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\Menu.cs",
+              "RelativeToolTip": "WinAppRectangle\\Menu.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAewKQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T02:31:28.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "frmHexagonFlower.cs",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\frmHexagonFlower.cs",
               "RelativeDocumentMoniker": "WinAppRectangle\\frmHexagonFlower.cs",
@@ -42,56 +59,51 @@
               "RelativeToolTip": "WinAppRectangle\\frmHexagonFlower.cs",
               "ViewState": "AgIAAI4AAAAAAAAAAAD4v54AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T02:28:01.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T02:28:01.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "frmHexagonFlower.cs [Design]",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\frmHexagonFlower.cs",
               "RelativeDocumentMoniker": "WinAppRectangle\\frmHexagonFlower.cs",
               "ToolTip": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\frmHexagonFlower.cs [Design]",
               "RelativeToolTip": "WinAppRectangle\\frmHexagonFlower.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T02:27:59.877Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-18T02:27:59.877Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FlorCirculo.cs [Design]",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\FlorCirculo.cs",
               "RelativeDocumentMoniker": "WinAppRectangle\\FlorCirculo.cs",
               "ToolTip": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\FlorCirculo.cs [Design]",
               "RelativeToolTip": "WinAppRectangle\\FlorCirculo.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T02:27:58.347Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-18T02:27:58.347Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "frmFigura4.cs [Design]",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\frmFigura4.cs",
               "RelativeDocumentMoniker": "WinAppRectangle\\frmFigura4.cs",
               "ToolTip": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\frmFigura4.cs [Design]",
               "RelativeToolTip": "WinAppRectangle\\frmFigura4.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T00:01:32.073Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-18T00:01:32.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "frmEstrella.cs [Design]",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\frmEstrella.cs",
               "RelativeDocumentMoniker": "WinAppRectangle\\frmEstrella.cs",
               "ToolTip": "C:\\Users\\justi\\OneDrive\\Documentos\\Universidad Semestre A\\Grafica\\Proyecto 1\\ComputacionGrafica_Grupo\\WinAppPentagon\\WinAppRectangle\\frmEstrella.cs [Design]",
               "RelativeToolTip": "WinAppRectangle\\frmEstrella.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T02:27:55.348Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-18T02:27:55.348Z"
             }
           ]
         }

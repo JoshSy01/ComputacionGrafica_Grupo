@@ -53,6 +53,7 @@
     <Compile Include="CPentagon.cs" />
     <Compile Include="CPentagonosYPoligonos.cs" />
     <Compile Include="CRectangle.cs" />
+    <Compile Include="CRombo.cs" />
     <Compile Include="CSquare.cs" />
     <Compile Include="FlorCirculo.cs">
       <SubType>Form</SubType>
@@ -108,6 +109,12 @@
     <Compile Include="frmRectangle.Designer.cs">
       <DependentUpon>frmRectangle.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRombo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRombo.Designer.cs">
+      <DependentUpon>frmRombo.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSquare.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -149,6 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmRectangle.resx">
       <DependentUpon>frmRectangle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRombo.resx">
+      <DependentUpon>frmRombo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSquare.resx">
       <DependentUpon>frmSquare.cs</DependentUpon>
