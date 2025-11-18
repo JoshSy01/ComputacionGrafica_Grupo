@@ -14,6 +14,8 @@ namespace WinAppRectangle
         float radio;
         private Graphics mGraphic;
         private Pen mPen;
+        private float perimetro;
+        private float apotema;
 
         public CCopoDeNieve()
         {
@@ -190,15 +192,16 @@ namespace WinAppRectangle
         }
         public double CalcularPerimetroDecagono()
         {
-            double R = radio;
-            return 20.0 * R * Math.Sin(Math.PI / 10.0);
+            perimetro = (float)(10.0 * 2 * radio * Math.Sin(0.314159));
+            apotema = (float)(radio * Math.Cos(0.314159));
+            return perimetro;
         }
 
         public double CalcularAreaDecagono()
         {
-            double R = radio;
-            return 5.0 * R * R * Math.Sin(Math.PI / 5.0);
+            return (2 * radio * Math.Sin(0.314159) * apotema * 5);
         }
+
 
 
     }

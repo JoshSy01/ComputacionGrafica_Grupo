@@ -39,8 +39,8 @@ namespace WinAppRectangle
                 {
                     ObjPentyPoli.ReadData(float.Parse(txtRadio.Text));
                     ObjPentyPoli.PlotShape(picCanvas, center, tetha);
-                    txtPerPor.Text = ObjPentyPoli.CalcularPerimetroPoligonoGrande().ToString();
-                    txtAreaPor.Text = ObjPentyPoli.CalcularAreaPoligonoGrande().ToString();
+                    txtPerPor.Text = ObjPentyPoli.CalcularPerimetroPoligono().ToString();
+                    txtAreaPor.Text = ObjPentyPoli.CalcularAreaPoligono().ToString();
                     txtRadio.Enabled = false;
                     dibujado = true;
                     tbEscala.Enabled = true;
@@ -120,8 +120,8 @@ namespace WinAppRectangle
             picCanvas.Refresh();
             ObjPentyPoli.ReadData(float.Parse(txtRadio.Text) * escala);
             ObjPentyPoli.PlotShape(picCanvas, center, tetha);
-            txtPerPor.Text = ObjPentyPoli.CalcularPerimetroPoligonoGrande().ToString();
-            txtAreaPor.Text = ObjPentyPoli.CalcularAreaPoligonoGrande().ToString();
+            txtPerPor.Text = ObjPentyPoli.CalcularPerimetroPoligono().ToString();
+            txtAreaPor.Text = ObjPentyPoli.CalcularAreaPoligono().ToString();
         }
         
 

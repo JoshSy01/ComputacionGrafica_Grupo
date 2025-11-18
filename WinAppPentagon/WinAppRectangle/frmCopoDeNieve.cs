@@ -40,8 +40,8 @@ namespace WinAppRectangle
                     picCanvas.Refresh();
                     copoDeNieve.ReadData(float.Parse(txtRadio.Text));
                     copoDeNieve.PlotShape(picCanvas, center, tethaAdd);
-                    txtAreaPor.Text = copoDeNieve.CalcularAreaDecagono().ToString();
                     txtPerPor.Text = copoDeNieve.CalcularPerimetroDecagono().ToString();
+                    txtAreaPor.Text = copoDeNieve.CalcularAreaDecagono().ToString();
                     picCanvas.Focus();
                     dibujado = true;
                     tbEscala.Enabled = true;
@@ -142,6 +142,11 @@ namespace WinAppRectangle
             picCanvas.Refresh();
             tethaAdd -= 0.0872665f;
             copoDeNieve.PlotShape(picCanvas, center, tethaAdd);
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

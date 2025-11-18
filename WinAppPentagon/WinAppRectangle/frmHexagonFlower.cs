@@ -153,5 +153,10 @@ namespace WinAppRectangle
             ObjHexaFlow.ReadData(float.Parse(txtRadio.Text) * escala);
             ObjHexaFlow.PlotShape(picCanvas, center, tetha);
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

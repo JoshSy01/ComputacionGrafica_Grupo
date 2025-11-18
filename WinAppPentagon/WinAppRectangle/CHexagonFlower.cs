@@ -16,6 +16,9 @@ namespace WinAppRectangle
         private Graphics mGraphic;
         private Pen mPen;
 
+        private float perimetro;
+        private float apotema;
+
         public CHexagonFlower()
         {
             radio = 0.0f;
@@ -112,12 +115,14 @@ namespace WinAppRectangle
 
         public double CalcularPerimetroHexagono()
         {
-            return 6.0 * radio;
+            perimetro = (float)(6.0 * 2 * radio * Math.Sin(0.523599));
+            apotema = (float)(radio * Math.Cos(0.523599));
+            return perimetro;
         }
 
         public double CalcularAreaHexagono()
         {
-            return (3.0 * Math.Sqrt(3) / 2.0) * radio * radio;
+            return (2 * radio * Math.Sin(0.523599) * apotema * 3);
         }
 
 

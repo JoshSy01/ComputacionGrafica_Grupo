@@ -215,7 +215,7 @@ namespace WinAppRectangle
             DrawLine(3, 9, 0, 0);
         }
     
-    public double CalcularPerimetroPoligonoGrande()
+    public double CalcularPerimetroPoligono()
         {
             double R = radio * 3.25;  // radio del círculo donde están los 10 vértices
 
@@ -233,7 +233,7 @@ namespace WinAppRectangle
             return perimetro;
         }
 
-        public double CalcularAreaPoligonoGrande()
+        public double CalcularAreaPoligono()
         {
             double R = radio * 3.25;
 
