@@ -47,7 +47,8 @@ namespace WinAppFigure
                 center.x = picCanvas.Width / 2f;
                 center.y = picCanvas.Height / 2f;
 
-                ObjFigura.PlotShape(picCanvas, center, tetha, tbEscala.Value);
+                // pasar las cajas de texto para actualizar perímetro/área
+                ObjFigura.PlotShape(picCanvas, center, tetha, tbEscala.Value, txtAreaPor, txtPerPor);
                 picCanvas.Focus();
             }
             catch (Exception ex)
@@ -66,6 +67,10 @@ namespace WinAppFigure
             tetha = 0f;
             // limpiar imagen
             if (picCanvas.Image != null) { picCanvas.Image.Dispose(); picCanvas.Image = null; }
+
+            // limpiar salidas
+            txtAreaPor.Text = "";
+            txtPerPor.Text = "";
         }
 
         private void FrmFigura4_KeyDown(object sender, KeyEventArgs e)
@@ -82,7 +87,7 @@ namespace WinAppFigure
         {
             if (!txtRadio.Enabled)
             {
-                ObjFigura.PlotShape(picCanvas, center, tetha, tbEscala.Value);
+                ObjFigura.PlotShape(picCanvas, center, tetha, tbEscala.Value, txtAreaPor, txtPerPor);
                 picCanvas.Focus();
             }
         }
@@ -115,20 +120,20 @@ namespace WinAppFigure
             }
             if (!txtRadio.Enabled)
             {
-                ObjFigura.PlotShape(picCanvas, center, tetha, tbEscala.Value);
+                ObjFigura.PlotShape(picCanvas, center, tetha, tbEscala.Value, txtAreaPor, txtPerPor);
             }
         }
 
         private void BtnRotDer_Click(object sender, EventArgs e)
         {
             tetha += 5.0f * (float)Math.PI / 180.0f; // +5 grados
-            ObjFigura.PlotShape(picCanvas, center, tetha, tbEscala.Value);
+            ObjFigura.PlotShape(picCanvas, center, tetha, tbEscala.Value, txtAreaPor, txtPerPor);
         }
 
         private void BtnRotIzq_Click(object sender, EventArgs e)
         {
             tetha -= 5.0f * (float)Math.PI / 180.0f; // -5 grados
-            ObjFigura.PlotShape(picCanvas, center, tetha, tbEscala.Value);
+            ObjFigura.PlotShape(picCanvas, center, tetha, tbEscala.Value, txtAreaPor, txtPerPor);
         }
 
 

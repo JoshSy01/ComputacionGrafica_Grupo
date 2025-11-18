@@ -60,7 +60,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.MdiWindowListItem = this.figurasToolStripMenuItem;
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(671, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(802, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -71,7 +71,7 @@
             this.cuadradoToolStripMenuItem1,
             this.romboToolStripMenuItem});
             this.nivelFácilToolStripMenuItem.Name = "nivelFácilToolStripMenuItem";
-            this.nivelFácilToolStripMenuItem.Size = new System.Drawing.Size(90, 26);
+            this.nivelFácilToolStripMenuItem.Size = new System.Drawing.Size(90, 24);
             this.nivelFácilToolStripMenuItem.Text = "Nivel Fácil";
             // 
             // rectánguloToolStripMenuItem
@@ -101,7 +101,7 @@
             this.pentágonoToolStripMenuItem,
             this.florToolStripMenuItem1});
             this.nivelMedioToolStripMenuItem.Name = "nivelMedioToolStripMenuItem";
-            this.nivelMedioToolStripMenuItem.Size = new System.Drawing.Size(104, 26);
+            this.nivelMedioToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
             this.nivelMedioToolStripMenuItem.Text = "Nivel Medio";
             // 
             // pentágonoToolStripMenuItem
@@ -129,7 +129,7 @@
             this.florConCírculosToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.figurasToolStripMenuItem.Name = "figurasToolStripMenuItem";
-            this.figurasToolStripMenuItem.Size = new System.Drawing.Size(100, 26);
+            this.figurasToolStripMenuItem.Size = new System.Drawing.Size(100, 24);
             this.figurasToolStripMenuItem.Text = "Nivel Difícil";
             // 
             // polígono16Y8PuntasToolStripMenuItem
@@ -185,9 +185,9 @@
             // 
             this.mainPanel.BackColor = System.Drawing.SystemColors.Info;
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainPanel.Location = new System.Drawing.Point(0, 30);
+            this.mainPanel.Location = new System.Drawing.Point(0, 28);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(671, 347);
+            this.mainPanel.Size = new System.Drawing.Size(802, 463);
             this.mainPanel.TabIndex = 2;
             this.mainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.mainPanel_Paint);
             // 
@@ -201,7 +201,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(671, 377);
+            this.ClientSize = new System.Drawing.Size(802, 491);
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;

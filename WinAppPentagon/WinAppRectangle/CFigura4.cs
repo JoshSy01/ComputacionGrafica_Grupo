@@ -32,11 +32,24 @@ namespace WinAppFigure
         // center: centro en coordenadas del picturebox
         // theta: rotación en radianes
         // tbScaleValue: valor del trackbar (10 => escala 1.0)
-        public void PlotShape(PictureBox pic, Punto center, float theta, int tbScaleValue = 10)
+        // txtAreaPor/txtPerPor: opcionales, se actualizan con los valores calculados
+        public void PlotShape(PictureBox pic, Punto center, float theta, int tbScaleValue = 10, TextBox txtAreaPor = null, TextBox txtPerPor = null)
         {
             if (radio <= 0 || pic == null) return;
 
+            // escala desde tbScaleValue (10 -> 1.0)
             float scale = tbScaleValue / 10.0f;
+
+            // proteger contra escala cero o valores no válidos
+            const float MIN_SCALE = 0.05f; // evita matrices singulares / errores al dibujar
+            if (float.IsNaN(scale) || float.IsInfinity(scale) || scale <= 0f)
+            {
+                scale = MIN_SCALE;
+            }
+            else if (scale < MIN_SCALE)
+            {
+                scale = MIN_SCALE;
+            }
 
             Bitmap bmp = new Bitmap(pic.Width, pic.Height);
             using (Graphics g = Graphics.FromImage(bmp))
@@ -46,13 +59,13 @@ namespace WinAppFigure
                 g.Clear(Color.FromArgb(18, 30, 46));
 
                 // Configurar transformación: Escalar, luego Rotar, LUEGO trasladar
-                Matrix m = new Matrix();
+                Matrix m = new Matrix();
 
                 // 1) aplicar escala (uniforme) - relativo al origen (0,0)
                 m.Scale(scale, scale, MatrixOrder.Append);
 
-                // 2) rotación - relativo al origen (0,0)
-                float thetaDeg = theta * 180f / (float)Math.PI;
+                // 2) rotación - relativo al origen (0,0)
+                float thetaDeg = theta * 180f / (float)Math.PI;
                 m.Rotate(thetaDeg, MatrixOrder.Append);
 
                 // 3) trasladar el resultado al centro (ESTE PASO VA AL FINAL)
@@ -60,7 +73,37 @@ namespace WinAppFigure
 
                 // Guardar estado original y aplicar transform
                 GraphicsState gs = g.Save();
-                g.Transform = m;
+
+                // validar matriz antes de asignar (evitar excepciones por matriz inválida)
+                bool matrixOk = true;
+                try
+                {
+                    // comprobar elementos de la matriz por NaN/Infinity
+                    float[] elements = m.Elements;
+                    foreach (float v in elements)
+                    {
+                        if (float.IsNaN(v) || float.IsInfinity(v))
+                        {
+                            matrixOk = false;
+                            break;
+                        }
+                    }
+
+                    if (matrixOk)
+                    {
+                        g.Transform = m;
+                    }
+                    else
+                    {
+                        // fallback: no aplicar transform si la matriz es inválida
+                        g.ResetTransform();
+                    }
+                }
+                catch
+                {
+                    // En caso de cualquier excepción, usar transform identidad y continuar
+                    g.ResetTransform();
+                }
 
                 // Dibujar guías entrecortadas (se dibujan alrededor del origen (0,0) ya transformado)
                 using (Pen guidePen = new Pen(Color.FromArgb(160, Color.LightGray), 1f))
@@ -129,8 +172,7 @@ namespace WinAppFigure
                     g.DrawLine(innerPen, C_prime, D);
                     g.DrawLine(innerPen, C, A_prime);
 
-                    // Además, para acercarnos más a la imagen, dibujamos una estrella poligonal
-                    // conectando 8 puntos en la circunferencia con salto 'step'
+                    // Además, dibujamos una estrella poligonal conectando 8 puntos en la circunferencia con salto 'step'
                     PointF[] circPts = new PointF[n];
                     for (int i = 0; i < n; i++)
                     {
@@ -147,6 +189,43 @@ namespace WinAppFigure
                         int next = (i + step) % n;
                         g.DrawLine(innerPen, circPts[i], circPts[next]);
                     }
+
+                    //perimetro y area
+                    try
+                    {
+                        // construir orden visitando cada vértice con salto 'step'
+                        List<PointF> starOrder = new List<PointF>(n);
+                        bool[] visited = new bool[n];
+                        int idx = 0;
+                        for (int k = 0; k < n; k++)
+                        {
+                            starOrder.Add(circPts[idx]);
+                            visited[idx] = true;
+                            idx = (idx + step) % n;
+                        }
+
+                        PointF[] starPts = starOrder.ToArray();
+                        double areaRaw = Math.Abs(PolygonArea(starPts));       // área sin escala
+                        double periRaw = PolygonPerimeter(starPts);            // perímetro sin escala
+
+                        // aplicar escala efectiva (ya se usó MIN_SCALE para proteger)
+                        double areaScaled = areaRaw * scale * scale;
+                        double periScaled = periRaw * scale;
+
+                        // escribir en textboxes si están provistos (2 decimales)
+                        if (txtAreaPor != null)
+                        {
+                            txtAreaPor.Text = areaScaled.ToString("F2");
+                        }
+                        if (txtPerPor != null)
+                        {
+                            txtPerPor.Text = periScaled.ToString("F2");
+                        }
+                    }
+                    catch
+                    {
+                        // no bloquear dibujo si algo falla en cálculo; dejar textboxes sin cambiar
+                    }
                 }
 
                 // Restaurar estado gráfico original (quitar transform)
@@ -157,6 +236,33 @@ namespace WinAppFigure
             Image old = pic.Image;
             pic.Image = bmp;
             old?.Dispose();
+        }
+
+        private double PolygonPerimeter(PointF[] pts)
+        {
+            double sum = 0.0;
+            for (int i = 0; i < pts.Length; i++)
+            {
+                PointF a = pts[i];
+                PointF b = pts[(i + 1) % pts.Length];
+                double dx = b.X - a.X;
+                double dy = b.Y - a.Y;
+                sum += Math.Sqrt(dx * dx + dy * dy);
+            }
+            return sum;
+        }
+
+        // Fórmula de shoelace
+        private double PolygonArea(PointF[] pts)
+        {
+            double sum = 0.0;
+            int m = pts.Length;
+            for (int i = 0; i < m; i++)
+            {
+                int j = (i + 1) % m;
+                sum += pts[i].X * pts[j].Y - pts[j].X * pts[i].Y;
+            }
+            return 0.5 * sum;
         }
 
         private void DrawCircle(Graphics g, Pen p, float radius)
